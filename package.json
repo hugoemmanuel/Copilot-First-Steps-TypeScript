@@ -1,0 +1,16 @@
+{
+  "name": "copilot-kata-ts",
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --loader ts-node/esm src/cmd/katanasvc.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/cmd/katanasvc.js",
+    "test": "npm run build && node --test",
+    "bench": "node --loader ts-node/esm scripts/bench.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

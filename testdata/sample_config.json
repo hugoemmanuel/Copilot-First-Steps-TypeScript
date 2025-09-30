@@ -1,0 +1,10 @@
+{
+  "appName": "Copilot-First-Steps-TypeScript",
+  "maxUsers": 23,
+  "features": [
+    "auth",
+    "import",
+    "export"
+  ],
+  "threshold": 0.72
+}
