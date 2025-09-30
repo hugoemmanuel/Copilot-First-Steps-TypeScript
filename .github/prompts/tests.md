@@ -1,6 +1,6 @@
 # Test Generation Template (TypeScript/Node)
 
-- Framework: Node's built-in test runner (`node --test`) or your team's choice.
+- Framework: Node's built-in test runner (`node --test`)
 - Style: AAA (Arrange–Act–Assert). Small, readable cases.
 
 ## Prompt
